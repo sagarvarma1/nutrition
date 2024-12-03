@@ -1,0 +1,48 @@
+.meal-planner {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.day-plan {
+    background: white;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.meal-input {
+    margin: 1rem 0;
+}
+
+.meal-input label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #4a5568;
+    font-weight: 500;
+}
+
+.meal-input textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 4px;
+    min-height: 80px;
+    resize: vertical;
+}
+
+.save-button {
+    background: #4299e1;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.save-button:hover {
+    background: #3182ce;
+}

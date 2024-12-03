@@ -1,0 +1,38 @@
+.photo-upload {
+    margin: 1rem 0;
+}
+
+.file-input {
+    display: none;
+}
+
+.upload-label {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: #4299e1;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.upload-label:hover {
+    background: #3182ce;
+}
+
+.preview-container {
+    margin-top: 1rem;
+    max-width: 300px;
+}
+
+.photo-preview {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.upload-error {
+    color: #e53e3e;
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+}
